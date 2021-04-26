@@ -90,8 +90,10 @@ def get_bot_response():
         res = "Yes, I am. I can be backed up and recreated on many systems."
     elif msg =="what language are you written in":
         res = "I am written in Python."    
+    else:
+        res = "Sorry, I do not understand you!"
     
-    return str(english_bot.get_response(res))
+    return str(res)
 
 
 if __name__ == "__main__":
