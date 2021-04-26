@@ -2,3 +2,4 @@
 # Usage: pip install -r requirements.txt
 
 Flask>=1.0.0
+gunicorn>=0.14.2
